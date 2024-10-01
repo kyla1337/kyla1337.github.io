@@ -187,7 +187,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 1.75em;
 	}
 
 		h1.major {
@@ -215,7 +215,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.50em;
 	}
 
 	h3 {
@@ -3761,7 +3761,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #702e09;
+				background: ##000372;
 			}
 
 			#sidebar nav a:after {
@@ -3881,7 +3881,7 @@ input, select, textarea {
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1.20em;
 		}
 
 			@media screen and (max-width: 980px) {
