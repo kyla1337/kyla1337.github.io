@@ -99,21 +99,6 @@ input, select, textarea {
 
 	body {
 		background: #111218;
-
-		<script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '672a8cb7f66d353330da693f' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
-
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
