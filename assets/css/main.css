@@ -3534,7 +3534,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 15em;
+		width: 16em;
 		z-index: 10000;
 	}
 
@@ -3740,7 +3740,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.5em;
+			font-size: 0.6em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
