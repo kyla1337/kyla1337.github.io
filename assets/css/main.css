@@ -3806,11 +3806,11 @@ input, select, textarea {
 			#sidebar {
 				height: 3.5em;
 				left: 0;
-				line-height: 3.5em;
-				overflow: hidden;
-				padding: 0;
+				line-height: normal;
+				overflow: visible;
+				padding: 1em;
 				text-align: center;
-				top: 0;
+				top: auto;
 				width: 100%;
 			}
 
@@ -3823,7 +3823,7 @@ input, select, textarea {
 					-webkit-align-items: -webkit-stretch;
 					-ms-align-items: -ms-stretch;
 					align-items: stretch;
-					height: inherit;
+					height: 1.7em;
 					line-height: inherit;
 				}
 
