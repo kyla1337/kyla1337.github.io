@@ -2562,7 +2562,7 @@ input, select, textarea {
 /* Image */
 
 @media screen and (max-width: 1000px) {
-        .images img {
+        .image {
            background-image: url('images/wed4.gif');
             height: 200px; //customize it
             background-repeat: no-repeat;
