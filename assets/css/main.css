@@ -2561,7 +2561,7 @@ input, select, textarea {
 
 /* Image */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 1000px) {
         .images img {
            background-image: url('images/wed4.gif');
             height: 200px; //customize it
