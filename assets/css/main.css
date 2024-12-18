@@ -2569,7 +2569,7 @@ input, select, textarea {
 	}
 
  	@media screen and (max-width: 1000px) {
-               .images img {
+               .images {
            	  background-image: url('images/wed4.gif');
             	   height: 200px; // customize it
             	   background-repeat: no-repeat;
@@ -2578,7 +2578,7 @@ input, select, textarea {
     	   }
 
          @media screen and (max-width: 300px) {
-                .images img {
+                .images {
                    background-image: url('images/wed4.gif');
                     height: 500px; //customize it
                     background-repeat: no-repeat;
