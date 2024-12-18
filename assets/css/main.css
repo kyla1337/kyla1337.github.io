@@ -2568,21 +2568,23 @@ input, select, textarea {
 		position: relative;
 	}
 
-	@media screen and (max-width: 1000px) {
-        .image img {
+ @media screen and (max-width: 1000px) {
+        .images img {
+           background-image:url('images/wed4.gif');
             height: 200px; // customize it
             background-repeat: no-repeat;
             background-size: cover;
               }
-	}
+    }
 
- 	@media screen and (max-width: 300px) {
-        .image img {
+ @media screen and (max-width: 300px) {
+        .images img {
+           background-image:url('images/wed4.gif');
             height: 500px; //customize it
             background-repeat: no-repeat;
             background-size: cover;
               }
-	]
+    }
 		.image img {
 			border-radius: 0.25em;
 			display: block;
