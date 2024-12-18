@@ -2561,6 +2561,14 @@ input, select, textarea {
 
 /* Image */
 
+@media screen and (max-width: 300px) {
+        .images img {
+           background-image: url('images/wed4.gif');
+            height: 200px; //customize it
+            background-repeat: no-repeat;
+            background-size: cover;
+              }
+    }
 	.image {
 		border-radius: 0.25em;
 		border: 0;
