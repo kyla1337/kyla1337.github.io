@@ -2562,21 +2562,18 @@ input, select, textarea {
 /* Image */
 
 	.image {
+		background: transparent url(wed4.gif) no-repeat top center;
+    		background-attachment: fixed;
+    		background-size: 400px;
+    		margin: 0;
+    		padding: 0;
+    		width: 100%;
+   		max-width: 100%;
 		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
-
-.image {
-    background: transparent url(wed4.gif) no-repeat top center;
-    background-attachment: fixed;
-    background-size: 400px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-}
 
 		.image img {
 			border-radius: 0.25em;
