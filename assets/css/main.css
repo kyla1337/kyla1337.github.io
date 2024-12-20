@@ -1990,12 +1990,11 @@ input, select, textarea {
   min-width: 300px;
   object-fit: scale-down;
   max-width: 100%;
-  padding: 1px 1px;
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: contents;
 }
 
 	.features {
