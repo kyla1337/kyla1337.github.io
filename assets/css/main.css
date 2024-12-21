@@ -1978,19 +1978,6 @@ input, select, textarea {
 
 /* Features */
 
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -1999,24 +1986,16 @@ input, select, textarea {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #111218;
+  min-width: 300px;
+  object-fit: scale-down;
+  max-width: 100%;
   z-index: 1;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.dropdown:hover .dropdown-content {
+  display: contents;
 }
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
