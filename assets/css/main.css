@@ -2419,7 +2419,7 @@ input:checked~ul.submenu {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: normal;
+			font-weight: bolder;
 			padding-left: 0em;
 			padding-right: 0.75em;
 			position: relative;
