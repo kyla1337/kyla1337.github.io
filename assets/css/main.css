@@ -2415,7 +2415,7 @@ input:checked~ul.submenu {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(0, 188, 212, 0);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2646,7 +2646,7 @@ input:checked~ul.submenu {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		padding-left: 0;
 	}
 
 		ul li {
