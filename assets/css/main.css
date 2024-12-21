@@ -1996,6 +1996,7 @@ input, select, textarea {
 .dropdown:hover .dropdown-content {
   display: contents;
 }
+
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
