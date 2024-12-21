@@ -1997,6 +1997,22 @@ input, select, textarea {
   display: contents;
 }
 
+input, ul.submenu {
+  display: none;
+}
+
+/*position the label*/
+label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+/*show the submenu when input is checked*/
+input:checked~ul.submenu {
+  display: block;
+}
+
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
