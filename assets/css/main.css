@@ -1978,25 +1978,6 @@ input, select, textarea {
 
 /* Features */
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #111218;
-  min-width: 300px;
-  object-fit: scale-down;
-  max-width: 100%;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: contents;
-}
-
 input, ul.submenu {
   display: none;
 }
