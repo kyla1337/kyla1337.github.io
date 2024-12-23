@@ -119,9 +119,33 @@ Feel free to browse through my work, explore what I’m passionate about, and ge
 									<p>As I previously mentioned earlier, I have been introduced to custom built computers since I was 11 years old. Here are a few custom built systems I have crafted on my own!</p>
 
 									<html>
-									<body>
+									<head>
+    									    <style>
+       										 /* Set display to none for image*/
+										#image {
+										    display: none;
+										}
+									    </style>
+									</head>
+										
+									<body>	
+									    <div>
+										<img id="image" src="images/IMG_8636.jpg" alt="" />
+									    <button type="button" onclick="show()" id="btnID">Click Me!</button>
 
-									<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+									    <script>
+									        function show() {
+									            /* Access image by id and change 
+									            the display property to block*/
+									            document.getElementById('image')
+									                .style.display = "block";
+									            document.getElementById('btnID')
+									                .style.display = "none";
+									        }
+									    </script>
+									</body>
+									
+									</html>
  
 									</body>
 									</html>
