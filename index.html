@@ -157,7 +157,7 @@ Feel free to browse through my work, explore what I’m passionate about, and ge
 									<body>
 									   <button id="show-image-button2">Computer Build 2</button>
 									   <img id="my-image2" 
-									        src="images/IMG_8492.jpg" style="height: auto; width: 100%; object-fit: contain"
+									        src="images/IMG_8635.jpg" style="height: auto; width: 100%; object-fit: contain"
 									        class="hidden">
 										
 									<script>
@@ -165,6 +165,31 @@ Feel free to browse through my work, explore what I’m passionate about, and ge
 									      const myImage2 = document.getElementById("my-image2");
 									      showImageButton2.addEventListener("click", () => { 
 									         myImage2.classList.toggle("visible"); 
+									      });
+									</script>
+
+									<html>
+									<head>
+									   <style>
+									      .hidden {
+									          display: none; 
+									      }
+									      .visible {
+									          display: block; 
+									      }
+									   </style>
+									 </head>
+									<body>
+									   <button id="show-image-button3">Computer Build 3</button>
+									   <img id="my-image3" 
+									        src="images/IMG_8636.jpg" style="height: auto; width: 100%; object-fit: contain"
+									        class="hidden">
+										
+									<script>
+									      const showImageButton3 = document.getElementById("show-image-button3");
+									      const myImage3 = document.getElementById("my-image3");
+									      showImageButton3.addEventListener("click", () => { 
+									         myImage3.classList.toggle("visible"); 
 									      });
 									</script>
 
