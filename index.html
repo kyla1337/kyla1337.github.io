@@ -143,6 +143,31 @@ Feel free to browse through my work, explore what I’m passionate about, and ge
 									      });
 									</script>
 
+									<html>
+									<head>
+									   <style>
+									      .hidden {
+									          display: none; 
+									      }
+									      .visible {
+									          display: block; 
+									      }
+									   </style>
+									 </head>
+									<body>
+									   <button id="show-image-button2">Computer Build 2</button>
+									   <img id="my-image2" 
+									        src="images/IMG_8492.jpg" style="height: auto; width: 100%; object-fit: contain"
+									        class="hidden">
+										
+									<script>
+									      const showImageButton2 = document.getElementById("show-image-button2");
+									      const myImage2 = document.getElementById("my-image2");
+									      showImageButton2.addEventListener("click", () => { 
+									         myImage2.classList.toggle("visible"); 
+									      });
+									</script>
+
 									
 								</section>
 								<!-- <section>
