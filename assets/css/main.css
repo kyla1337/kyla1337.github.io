@@ -3028,8 +3028,8 @@ input:checked~ul.submenu {
 			border-radius: 0;
 			display: block;
 			position: relative;
-  			width: 18em;
-    			margin: 0 30px;
+  			width: 22em;
+    			margin: 20px;
 		}
 
 			.spotlights > section > .image img {
