@@ -3030,6 +3030,10 @@ input:checked~ul.submenu {
 			position: relative;
   			width: 22em;
     			margin: 20px;
+			margin-top: 20px;
+    			margin-right: 20px;
+    			margin-bottom: 20px;
+    			margin-left: 20px;
 		}
 
 			.spotlights > section > .image img {
