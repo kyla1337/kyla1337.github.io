@@ -3029,6 +3029,7 @@ input:checked~ul.submenu {
 			display: block;
 			position: relative;
   			width: 18em;
+    			margin: 0 30px;
 		}
 
 			.spotlights > section > .image img {
