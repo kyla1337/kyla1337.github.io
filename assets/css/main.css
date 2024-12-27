@@ -3124,7 +3124,7 @@ input:checked~ul.submenu {
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
+					width: 90%;
 					height: 50vh;
 				}
 
